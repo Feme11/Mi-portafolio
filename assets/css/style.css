@@ -1,0 +1,91 @@
+body *{
+  font-family: 'Quicksand', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #f2f2f2;
+}
+/* inicio nav */
+
+.navbar-nav {
+  margin-left: auto;
+  text-decoration: none;
+ }
+ .bg-color {
+   background-color: #444c5c;
+ }
+ @media screen and (min-width: 601px) {
+   .fern {
+       font-size: 40px;
+     }
+ }
+ @media screen and (max-width: 600px) {
+    .fern {
+      font-size: 25px;
+   }
+ }
+
+/* inicio header */
+
+ @media screen and (min-width: 601px) {
+  .hero-section {
+    text-align: center;
+    background-image: url('../img/big-hero.1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    weight: 100%;
+    height: 50%;
+    padding: 0 0 0 0;
+    margin-top: 3.5rem;
+     }
+ }
+ @media screen and (max-width: 600px) {
+   .hero-section {
+     text-align: center;
+     background-image: url('../img/big-hero.2.jpg');
+     height:100%;
+     weight: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: 3.5rem;
+   }
+ }
+
+
+/* inicio descripción */
+
+h2 {
+  font-weight: medium;
+}
+.bg-desc, .bg-exp {
+  background-color: #ce5a57;
+}
+
+/* inicio experiencia */
+
+ .btn-color {
+   color: #e1b16a;
+ }
+
+ /* inicio trabajos */
+
+ #trabajos {
+   background-color: #78a5a3;
+   text-decoration-color: #6fb98f;
+   text-align: left;
+ }
+ .btn-work {
+   padding: 0 0 0 0;
+ }
+ .card-body {
+   background-color: #444c5c;
+   margin: 0 0 0 0;
+ }
+/* inicio footer */
+.icon {
+  decoration: none;
+}
